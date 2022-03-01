@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import parse from 'html-react-parser';
+import sendEmail from '.././sendEmail';
 
 class SignUP extends Component {
-
+	// sendEmail.sendEmail("sub","msg");
     render() {
 
         let publicUrl = process.env.PUBLIC_URL+'/'
@@ -15,42 +16,36 @@ class SignUP extends Component {
 			        <form className="contact-form-inner mt-mn-200 style-shadow">
 			          <div className="section-title">
 			            <h2 className="title">Enquire Now</h2>
-			            <p>We will be happy to answer your questions.</p>
+			            <p>Fill the form below to get a response on your questions about our courses by next working day.</p>
 			          </div>
 			          <div className="row">
 			            <div className="col-md-6">
 			              <div className="single-input-inner">
-			                <input type="text" placeholder="Full name" />
+			                <input type="text" placeholder="Full name" required/>
 			              </div>
 			            </div>
 			            <div className="col-md-6">
 			              <div className="single-input-inner">
-			                <input type="text" placeholder="Phone Number" />
+			                <input type="text" placeholder="Phone Number" required/>
 			              </div>
 			            </div>
 			            <div className="col-md-6">
 			              <div className="single-input-inner">
-			                <input type="text" placeholder="Email Address" />
+			                <input type="text" placeholder="Email Address" required/>
 			              </div>
 			            </div>
 			            <div className="col-md-6">
 			              <div className="single-input-inner">
-			                <input type="text" placeholder="Subject" />
+			                <input type="text" placeholder="Subject" required/>
 			              </div>
 			            </div>
 			            <div className="col-12">
 			              <div className="single-input-inner">
-			                <textarea placeholder="Your Message" defaultValue={""} />
+			                <textarea placeholder="Your Message" defaultValue={""} required/>
 			              </div>
 			            </div>
-			            <div className="col-sm-6 align-self-center">
-			              <div className="single-input-inner style-checkbox">
-			                <input type="checkbox" />
-			                Also subscribe us
-			              </div>
-			            </div>
-			            <div className="col-sm-6 text-sm-right">
-			              <a className="btn btn-base" href="#">Send Message</a>
+			            <div className="col-sm-6 text-sm-right" style={{ display: "flex" }}>
+							<button className="btn btn-base" type="submit" style={{ justifyContent: 'flex-end'}}>Send Message</button>
 			            </div>
 			          </div>
 			        </form>

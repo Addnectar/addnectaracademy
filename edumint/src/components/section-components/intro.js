@@ -14,11 +14,11 @@ class Intro extends Component {
 			      <div className="row no-gutters">
 			        <div className="col-lg-4 text-lg-left text-center">
 			          <div className="intro-title">
-			            <h3>Vivamus maximus </h3>
-			            <p>Lorem ipsum dolor sadipscing elitr, sed diam nonum</p>
+			            <h3>Industry Ready</h3>
+			            <p>Learn what graphics design firms want and get hired.</p>
 			            <ul>
-			              <li><i className="fa fa-check" /> Nullam est </li>
-			              <li><i className="fa fa-check" /> Mattis dictum nunc</li>
+			              <li><i className="fa fa-check" /> Curriculum design as per job profiles </li>
+			              <li><i className="fa fa-check" /> Immediate placement on completion</li>
 			            </ul>
 			          </div>
 			        </div>
@@ -30,8 +30,8 @@ class Intro extends Component {
 			                  <img src={publicUrl+"assets/img/intro/1.png"} alt="img" />
 			                </div>
 			                <div className="details">
-			                  <h5>Postgraduate</h5>
-			                  <p>Lorem ipsum dolor</p>
+			                  <h5>Expert Trainers</h5>
+			                  {/* <p>Lorem ipsum dolor</p> */}
 			                </div>
 			              </div>
 			            </li>
@@ -41,8 +41,8 @@ class Intro extends Component {
 			                  <img src={publicUrl+"assets/img/intro/2.png"} alt="img" />
 			                </div>
 			                <div className="details">
-			                  <h5>Engineering</h5>
-			                  <p>Lorem ipsum dolor</p>
+			                  <h5>Live Projects</h5>
+			                  {/* <p>Lorem ipsum dolor</p> */}
 			                </div>
 			              </div>
 			            </li>
@@ -52,8 +52,8 @@ class Intro extends Component {
 			                  <img src={publicUrl+"assets/img/intro/3.png"} alt="img" />
 			                </div>
 			                <div className="details">
-			                  <h5>Accounting</h5>
-			                  <p>Lorem ipsum dolor</p>
+			                  <h5>Real World Jobs</h5>
+			                  {/* <p>Lorem ipsum dolor</p> */}
 			                </div>
 			              </div>
 			            </li>

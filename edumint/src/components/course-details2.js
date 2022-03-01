@@ -1,17 +1,17 @@
 import React from 'react';
 import Navbar from './global-components/navbar-v4';
 import PageHeader from './global-components/page-header';
-import CourseDetails from './section-components/course-details';
+import CourseDetailsSection2 from './section-components/course-details2';
 import Footer from './global-components/footer';
 
-const AboutPage = () => {
+const CourseDetails2 = () => {
     return <div>
         <Navbar />
         <PageHeader headertitle="Courses Details"  />
-        <CourseDetails />
+        <CourseDetailsSection2 />
         <Footer />
     </div>
 }
 
-export default AboutPage
+export default CourseDetails2
 

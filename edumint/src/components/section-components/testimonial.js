@@ -16,7 +16,7 @@ class Testimonial extends Component {
 			        <div className="item">
 			          <div className="single-testimonial-inner style-white">
 			            <span className="testimonial-quote"><i className="fa fa-quote-left" /></span>
-			            <p className="mb-4">Eugene Freeman sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, elitr, sed diam sed diam volu</p>
+			            <p className="mb-4">Not only did they teach me graphic design but I got to work on projects that were part of customer real work.</p>
 			            <div className="media testimonial-author">
 			              <div className="media-left">
 			                <img src={publicUrl+"assets/img/author/1.png"} alt="img" />
@@ -32,7 +32,23 @@ class Testimonial extends Component {
 			        <div className="item">
 			          <div className="single-testimonial-inner style-white">
 			            <span className="testimonial-quote"><i className="fa fa-quote-left" /></span>
-			            <p className="mb-4">Jaction Freeman amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed elitr, sed diam diam volu</p>
+			            <p className="mb-4">After learning Corel and photoshop the only jobs i did was like DTP but I now have industry exposure by learning how a graphics studio works.</p>
+			            <div className="media testimonial-author">
+			              <div className="media-left">
+			                <img src={publicUrl+"assets/img/author/2.png"} alt="img" />
+			                <i className="fa fa-quote-left" />
+			              </div>
+			              <div className="media-body align-self-center">
+			                <h6>Jaction Freeman</h6>
+			                <p>Tincidunt</p>
+			              </div>
+			            </div>
+			          </div>
+			        </div>
+					<div className="item">
+			          <div className="single-testimonial-inner style-white">
+			            <span className="testimonial-quote"><i className="fa fa-quote-left" /></span>
+			            <p className="mb-4">I am really happy and excited about my new job and this course from Addnectar Academy. I got to start the job within a week of getting certificate.</p>
 			            <div className="media testimonial-author">
 			              <div className="media-left">
 			                <img src={publicUrl+"assets/img/author/2.png"} alt="img" />

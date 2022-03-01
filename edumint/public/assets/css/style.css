@@ -1603,7 +1603,8 @@ ul {
   margin-right: 5px;
 }
 .navbar-top ul li a:hover {
-  color: #1DC295;
+  /* color: #1DC295; */
+  color: #ffffff;
 }
 .navbar-top .topbar-right a {
   margin: 0 7px;
@@ -2841,7 +2842,8 @@ ul {
   font-size: 15px;
   display: inline-block;
   margin-right: 9px;
-  color: var(--heading-color);
+  /* color: var(--heading-color); */
+  color: #ffffff;
 }
 .single-list-inner.style-check-box p {
   display: inline-block;

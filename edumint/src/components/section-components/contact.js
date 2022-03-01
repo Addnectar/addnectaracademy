@@ -15,42 +15,36 @@ class Contact extends Component {
 			        <form className="contact-form-inner mt-mn-200 style-shadow">
 			          <div className="section-title">
 			            <h2 className="title">Enquire Now</h2>
-			            <p>We will be happy to answer your questions.</p>
+			            <p>Fill the form below to get a response on your questions about our courses by next working day.</p>
 			          </div>
 			          <div className="row">
 			            <div className="col-md-6">
 			              <div className="single-input-inner">
-			                <input type="text" placeholder="Full name" />
+			                <input type="text" placeholder="Full name" required/>
 			              </div>
 			            </div>
 			            <div className="col-md-6">
 			              <div className="single-input-inner">
-			                <input type="text" placeholder="Phone Number" />
+			                <input type="text" placeholder="Phone Number" required/>
 			              </div>
 			            </div>
 			            <div className="col-md-6">
 			              <div className="single-input-inner">
-			                <input type="text" placeholder="Email Address" />
+			                <input type="text" placeholder="Email Address" required/>
 			              </div>
 			            </div>
 			            <div className="col-md-6">
 			              <div className="single-input-inner">
-			                <input type="text" placeholder="Subject" />
+			                <input type="text" placeholder="Subject" required/>
 			              </div>
 			            </div>
 			            <div className="col-12">
 			              <div className="single-input-inner">
-			                <textarea placeholder="Your Message" defaultValue={""} />
+			                <textarea placeholder="Your Message" defaultValue={""} required/>
 			              </div>
 			            </div>
-			            <div className="col-sm-6 align-self-center">
-			              <div className="single-input-inner style-checkbox">
-			                <input type="checkbox" />
-			                Also subscribe us
-			              </div>
-			            </div>
-			            <div className="col-sm-6 text-sm-right">
-			              <a className="btn btn-base" href="#">Send Message</a>
+			            <div className="col-sm-6 text-sm-right" style={{ display: "flex" }}>
+							<button className="btn btn-base" type="submit" style={{ justifyContent: 'flex-end'}}>Send Message</button>
 			            </div>
 			          </div>
 			        </form>
@@ -65,8 +59,7 @@ class Contact extends Component {
 			                </div>
 			                <div className="media-body align-self-center">
 			                  <h5>Our Address</h5>
-			                  <p>PSD Building, 2 AlBahr</p>
-			                  <p>St, Loskia sripur</p>
+			                  <p>E-418, Floral Deck Plaza, MIDC, Seepz, 23rd Rd, Andheri (East), Mumbai 400093</p>
 			                </div>
 			              </div>
 			            </li>
@@ -77,8 +70,7 @@ class Contact extends Component {
 			                </div>
 			                <div className="media-body align-self-center">
 			                  <h5>Our Phone</h5>
-			                  <p>+0029129102320</p>
-			                  <p>+000 2324 39493</p>
+			                  <a href="tel:9137423173"><p>+91 9137423173</p></a>
 			                </div>
 			              </div>
 			            </li>
@@ -89,8 +81,7 @@ class Contact extends Component {
 			                </div>
 			                <div className="media-body align-self-center">
 			                  <h5>Our Email</h5>
-			                  <p>name@website.com</p>
-			                  <p>Info@orex.com</p>
+							  <a href="mailto:someone@example.com"><p>info@addnectaracademy.com</p></a>
 			                </div>
 			              </div>
 			            </li>

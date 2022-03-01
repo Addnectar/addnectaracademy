@@ -19,7 +19,7 @@ const Home_V1 = () => {
         <Intro />
         <About />
         <CourseFilter />
-        <FunFact />
+        {/* <FunFact /> */}
         <HowToWork />
         <Testimonial />
         {/* <Team /> */}

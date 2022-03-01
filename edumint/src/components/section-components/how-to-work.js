@@ -8,16 +8,13 @@ class HowToWork extends Component {
 
         let publicUrl = process.env.PUBLIC_URL+'/'
 
-    return <div className="work-area pd-top-110 go-top">
+    return <div className="work-area pd-top-10 go-top">
 			  <div className="container">
 			    <div className="section-title">
 			      <div className="row">
 			        <div className="col-lg-6 align-self-center">
-			          <h6 className="sub-title right-line">What we do</h6>
+			          <h6 className="sub-title right-line">Enrolling to getting hired</h6>
 			          <h2 className="title">How it works?</h2>
-			        </div>
-			        <div className="col-lg-6 align-self-center">
-			          <p className="content mt-lg-0">The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs when MTV ax quiz</p>
 			        </div>
 			      </div>
 			    </div>
@@ -29,9 +26,8 @@ class HowToWork extends Component {
 			            <div className="intro-count">1</div>
 			          </div>
 			          <div className="details">
-			            <h5>Sign up</h5>
-			            <p>Ipsum yorem dolor amet sit  elit. Duis at est id leosco for it</p>
-			            <Link className="read-more-text" to="/course-details">Read More <i className="fa fa-angle-right" /></Link>
+			            <h5>Enroll</h5>
+			            <p>Talk to our counsellor and enroll in a career course of your choice.</p>
 			          </div>
 			        </div>
 			      </div>
@@ -42,9 +38,8 @@ class HowToWork extends Component {
 			            <div className="intro-count">2</div>
 			          </div>
 			          <div className="details">
-			            <h5>Select course</h5>
-			            <p>Ipsum yorem dolor amet sit  elit. Duis at est id leosco for it</p>
-			            <Link className="read-more-text" to="/course-details">Read More <i className="fa fa-angle-right" /></Link>
+			            <h5>Get Trained</h5>
+			            <p>Get trained in curriculum that is designed to excel in the graphics career path.</p>
 			          </div>
 			        </div>
 			      </div>
@@ -55,9 +50,8 @@ class HowToWork extends Component {
 			            <div className="intro-count">3</div>
 			          </div>
 			          <div className="details">
-			            <h5>Start Learning</h5>
-			            <p>Ipsum yorem dolor amet sit  elit. Duis at est id leosco for it</p>
-			            <Link className="read-more-text" to="/course-details">Read More <i className="fa fa-angle-right" /></Link>
+			            <h5>Get Certified</h5>
+			            <p>Pass the required exams or complete assignments and get certified.</p>
 			          </div>
 			        </div>
 			      </div>
@@ -68,9 +62,8 @@ class HowToWork extends Component {
 			            <div className="intro-count">4</div>
 			          </div>
 			          <div className="details">
-			            <h5>Get Certificate</h5>
-			            <p>Ipsum yorem dolor amet sit  elit. Duis at est id leosco for it</p>
-			            <Link className="read-more-text" to="/course-details">Read More <i className="fa fa-angle-right" /></Link>
+			            <h5>Get Hired</h5>
+			            <p>Get hired immediately within our graphics studio or with other employers.</p>
 			          </div>
 			        </div>
 			      </div>

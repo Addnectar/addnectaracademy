@@ -14,11 +14,11 @@ const AboutPage = () => {
         <Navbar />
         <PageHeader headertitle="About Us"  />
         <About sectionclass="pd-bottom-120" />
-        <FunFact />
-        <Team />
-        <SpecialArea />
+        {/* <FunFact /> */}
+        {/* <Team /> */}
+        {/* <SpecialArea /> */}
         <Testimonial />
-        <Event />
+        {/* <Event /> */}
         <Footer />
     </div>
 }
