@@ -20,20 +20,20 @@ class NavbarV4 extends Component {
         <div className="navbar-top">
           <div className="container">
             <div className="row">
-              <div className="col-md-8 text-md-left text-center">
-                <ul>
-                  <li><p><i className="fa fa-map-marker" />E-418, Floral Deck Plaza, MIDC, Seepz, 23rd Rd, Andheri (East)</p></li>
-                  <li><a href="mailto:info@addnectaracademy.com"><i className="fa fa-envelope" /> info@addnectaracademy.com</a></li>
-                </ul>
-              </div>
-              <div className="col-md-4">
-                <ul className="topbar-right text-md-right text-center">
-                  <li className="social-area">
-                    <a href="https://wa.me/+919137423179"><img src={publicUrl+"assets/img/icon/whatsapp.png"} alt="img" />+91 9137423179</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
+                  <div className="col-md-8">
+                    <ul className="text-md-right d-flex justify-content-between">
+                      <li><p><i className="fa fa-map-marker" />902-903, Suratwala Mark Plazzo, Wakad-Hinjewadi Road</p></li>
+                      <li><a href="mailto:info@addnectaracademy.com"><i className="fa fa-envelope" />info@addnectaracademy.com</a></li>
+                    </ul>
+                  </div>
+                  <div className="col-md-4">
+                    <ul className="text-md-right">
+                      <li className="social-area">
+                        <a href="https://wa.me/+918108167706"><img src={publicUrl+"assets/img/icon/whatsapp.png"} alt="img" />+91 8108167706</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
           </div>
         </div>
         <nav className="navbar bg-white navbar-area-1 navbar-area navbar-expand-lg go-top">

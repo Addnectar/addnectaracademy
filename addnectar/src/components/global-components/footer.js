@@ -25,10 +25,13 @@ class Footer_v1 extends Component {
 		          <div className="widget widget_contact">
 		            <h4 className="widget-title">Contact Us</h4>
 		            <ul className="details">
-		              <li><i className="fa fa-map-marker" /> E-418, Floral Deck Plaza, MIDC, Seepz, 23rd Rd, Andheri (East), Mumbai 400093</li>
-		              <li><a href="mailto:info@addnectaracademy.com"><i className="fa fa-envelope" /> info@addnectaracademy.com</a></li>
-					  <li><a href="tel:9137423179"><i className="fa fa-phone" /> +91 9137423179</a></li>		  
-					  <li style={{paddingLeft: '0px'}}><a href="https://wa.me/+919137423179"><img src={publicUrl+"assets/img/icon/whatsapp.png"} alt="icon" style={{paddingRight: '5px'}}/>Whatsapp</a></li>
+		              <li><i className="fa fa-map-marker" /><strong>Pune</strong></li>
+					  <li>902-903, Suratwala Mark Plazzo, Wakad-Hinjewadi Road, Pimpri-Chinchwad, Maharashtra 411057</li>
+					  <li className='mt-3'><i className="fa fa-map-marker" /><strong>Mumbai</strong> </li>
+					  <li>E-418, Floral Deck Plaza, MIDC, Seepz, 23rd Rd, Andheri (East)</li>
+		              <li className='mt-3'><a href="mailto:info@addnectaracademy.com"><i className="fa fa-envelope" />info@addnectaracademy.com</a></li>
+					  <li><a href="tel:8108167706"><i className="fa fa-phone" />+91 8108167706</a></li>		  
+					  <li style={{paddingLeft: '0px'}}><a href="https://wa.me/+918108167706"><img src={publicUrl+"assets/img/icon/whatsapp.png"} alt="icon" style={{paddingRight: '5px'}}/>Whatsapp</a></li>
 		            </ul>
 		          </div>
 		        </div>
@@ -70,16 +73,15 @@ class Footer_v1 extends Component {
 		        </div>
 		        <div className="col-lg-3  col-md-6 order-lg-12 text-md-right align-self-center">
 		          <ul className="social-media mt-md-0 mt-3">
-		            <li><a className="facebook" href="#"><i className="fa fa-facebook" /></a></li>
-		            <li><a className="twitter" href="#"><i className="fa fa-twitter" /></a></li>
-		            <li><a className="instagram" href="#"><i className="fa fa-instagram" /></a></li>
-		            <li><a className="youtube" href="#"><i className="fa fa-youtube" /></a></li>
-		            <li><a className="pinterest" href="#"><i className="fa fa-pinterest" /></a></li>
+		            <li><a className="facebook" href="https://www.facebook.com/AddNectar.Academy/"><i className="fa fa-facebook" /></a></li>
+		            <li><a className="twitter" href="https://twitter.com/addnectara"><i className="fa fa-twitter" /></a></li>
+		            <li><a className="instagram" href="https://www.instagram.com/addnectar.academy/"><i className="fa fa-instagram" /></a></li>
+		            <li><a className="linkedin" href="https://in.linkedin.com/company/addnectar-academy"><i className="fa fa-linkedin" /></a></li>
 		          </ul>
 		        </div>
 		        <div className="col-lg-5 order-lg-8 text-md-center align-self-center mt-lg-0 mt-3" >
-		          <p style={{fontSize: '0.9em'}}>Copyright 2022 Addnectar Solutions Pvt. Ltd</p>
-				  <p style={{fontSize: '0.7em'}}>A Division of Addnectar Solutions</p>
+		          <p style={{fontSize: '0.9em'}}>Copyright 2024 Addnectar Academy</p>
+				  <p style={{fontSize: '0.7em'}}>A Division of <a href='https://addnectar.com/' target='blank'>Addnectar Solutions Pvt Ltd</a></p>
 		        </div>
 		      </div>
 		    </div>

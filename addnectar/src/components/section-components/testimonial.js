@@ -19,12 +19,12 @@ class Testimonial extends Component {
 			            <p className="mb-4">Not only did they teach me graphic design but I got to work on projects that were part of customer real work.</p>
 			            <div className="media testimonial-author">
 			              <div className="media-left">
-			                <img src={publicUrl+"assets/img/author/1.png"} alt="img" />
+			                <img src={publicUrl+"assets/img/author/Abhijeet.jpg"} alt="img" />
 			                <i className="fa fa-quote-left" />
 			              </div>
 			              <div className="media-body align-self-center">
-			                <h6>Eugene Freeman</h6>
-			                <p>Graphics Artist </p>
+			                <h6>Abhijeet Birwadkar</h6>
+			                <p>Student</p>
 			              </div>
 			            </div>
 			          </div>
@@ -32,15 +32,16 @@ class Testimonial extends Component {
 			        <div className="item">
 			          <div className="single-testimonial-inner style-white">
 			            <span className="testimonial-quote"><i className="fa fa-quote-left" /></span>
-			            <p className="mb-4">After learning Corel and photoshop the only jobs i did was like DTP but I now have industry exposure by learning how a graphics studio works.</p>
+			            <p className="mb-4">I absolutely loved the teaching from the start till the end. The course on the whole was well-structured focusing on real-world .
+						 I also got a job after completing the course at Addnectar Solutions as Graphic Designer</p>
 			            <div className="media testimonial-author">
 			              <div className="media-left">
-			                <img src={publicUrl+"assets/img/author/2.png"} alt="img" />
+			                <img src={publicUrl+"assets/img/author/Bharat.jpg"} alt="img" />
 			                <i className="fa fa-quote-left" />
 			              </div>
 			              <div className="media-body align-self-center">
-			                <h6>Jaction Freeman</h6>
-			                <p>Publishing Design Creator</p>
+			                <h6>Bharat Gupta</h6>
+			                <p>Student</p>
 			              </div>
 			            </div>
 			          </div>
@@ -51,12 +52,12 @@ class Testimonial extends Component {
 			            <p className="mb-4">I am really happy and excited about my new job and this course from Addnectar Academy. I got to start the job within a week of getting certificate.</p>
 			            <div className="media testimonial-author">
 			              <div className="media-left">
-			                <img src={publicUrl+"assets/img/author/2.png"} alt="img" />
+			                <img src={publicUrl+"assets/img/author/Ashish.jpg"} alt="img" />
 			                <i className="fa fa-quote-left" />
 			              </div>
 			              <div className="media-body align-self-center">
-			                <h6>Jaction Freeman</h6>
-			                <p>Embroidery Artwork Specialist</p>
+			                <h6>Ashish Khandekar</h6>
+			                <p>Student</p>
 			              </div>
 			            </div>
 			          </div>
