@@ -52,7 +52,7 @@ class Testimonial extends Component {
 			            <p className="mb-4">I am really happy and excited about my new job and this course from Addnectar Academy. I got to start the job within a week of getting certificate.</p>
 			            <div className="media testimonial-author">
 			              <div className="media-left">
-			                <img src={publicUrl+"assets/img/author/Ashish.jpg"} alt="img" />
+			                <img src={publicUrl+"assets/img/author/aashish.jpg"} alt="img" />
 			                <i className="fa fa-quote-left" />
 			              </div>
 			              <div className="media-body align-self-center">
