@@ -39,6 +39,7 @@ class NavbarV4 extends Component {
         <nav className="navbar bg-white navbar-area-1 navbar-area navbar-expand-lg go-top">
           <div className="container nav-container">
             <div className="responsive-mobile-menu">
+            
               <button className="menu toggle-btn d-block d-lg-none" data-target="#edumint_main_menu" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="icon-left" />
                 <span className="icon-right" />
@@ -47,6 +48,9 @@ class NavbarV4 extends Component {
             <div className="logo">
               <Link to="/"><img src={publicUrl+"assets/img/logo.png"} alt="img" /></Link>
             </div>
+            <div className="nav-left-part nav-left-part-mobile">
+                  <Link className="btn btn-base" to="https://play.google.com/store/apps/details?id=co.lazarus.zifbo">Get the App</Link>
+                </div>
             <div className="nav-right-part nav-right-part-mobile">
             </div>
             <div className="collapse navbar-collapse" id="edumint_main_menu">
