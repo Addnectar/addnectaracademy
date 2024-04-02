@@ -22,15 +22,14 @@ class TestimonialV4 extends Component {
 			      <div className="item">
 			        <div className="single-testimonial-inner">
 			          <span className="testimonial-quote"><i className="fa fa-quote-right" /></span>
-			          <p>Not only did they teach me graphic design but I got to work on projects that were part of customer real work.</p>
-			          <br></br>
+			          <p>I completed my course from Addenctar Academy & now I'm working as Graphic Designer in Addnectar Solutions</p>
 					  <div className="media testimonial-author">
 			            <div className="media-left">
-			              <img src={publicUrl+"assets/img/testimonial/1.png"} alt="img" />
+			              <img src={publicUrl+"assets/img/testimonial/kirti.jpg"} alt="img" />
 			            </div>
 			            <div className="media-body align-self-center">
-			              <h6>Eugene Freeman</h6>
-			              <p>Graphics Artist </p>
+			              <h6>Kirti Shinge</h6>
+			              <p>Student </p>
 			            </div>
 			          </div>
 			        </div>
@@ -41,11 +40,11 @@ class TestimonialV4 extends Component {
 			          <p>After learning Corel and photoshop the only jobs i did was like DTP but I now have industry exposure by learning how a graphics studio works.</p>
 			          <div className="media testimonial-author">
 			            <div className="media-left">
-			              <img src={publicUrl+"assets/img/testimonial/2.png"} alt="img" />
+			              <img src={publicUrl+"assets/img/testimonial/sahil.jpg"} alt="img" />
 			            </div>
 			            <div className="media-body align-self-center">
-			              <h6>Kelly Coleman</h6>
-			              <p>Publishing Design Creator</p>
+			              <h6>Sahil Kalambate</h6>
+			              <p>Student</p>
 			            </div>
 			          </div>
 			        </div>
@@ -56,11 +55,11 @@ class TestimonialV4 extends Component {
 			          <p>I am really happy and excited about my new job and this course from Addnectar Academy. I got to start the job within a week of getting certificate.</p>
 			          <div className="media testimonial-author">
 			            <div className="media-left">
-			              <img src={publicUrl+"assets/img/testimonial/2.png"} alt="img" />
+			              <img src={publicUrl+"assets/img/testimonial/Aniruddha.jpg"} alt="img" />
 			            </div>
 			            <div className="media-body align-self-center">
-			              <h6>Kelly Coleman</h6>
-			              <p>Embroidery Artwork Specialist</p>
+			              <h6>Aniruddha Ghogale</h6>
+			              <p>Student</p>
 			            </div>
 			          </div>
 			        </div>

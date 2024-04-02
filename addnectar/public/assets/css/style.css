@@ -1580,7 +1580,7 @@ ul {
 .navbar-top ul li {
   display: inline-block;
   list-style: none;
-  margin-right: 20px;
+  /* margin-right: 115px; */
   padding-bottom: 10px;
 }
 .navbar-top ul li:last-child {
@@ -2077,6 +2077,12 @@ ul {
   .navbar-area .nav-container .navbar-collapse .navbar-nav li.menu-item-has-children .sub-menu li + li {
     border-top: none;
   }
+  
+  .navbar-area .navbar-top ul{
+    display: flex;
+    flex-direction: column;
+  }
+
 }
 .sopen {
   display: block;
@@ -2214,6 +2220,8 @@ ul {
   .navbar-area .nav-container .navbar-collapse .navbar-nav li + li {
     margin-left: 5px;
   }
+
+
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .responsive-mobile-menu {
@@ -2464,10 +2472,8 @@ ul {
   opacity: 0.97;
 }
 
-.mfp-zoom-in {
-  /* animate in */
-  /* animate out */
-}
+/* .mfp-zoom-in {
+} */
 
 .mfp-zoom-in .mfp-content {
   opacity: 0;
@@ -4279,6 +4285,15 @@ ul {
   padding-left: 25px;
   list-style: none;
 }
+
+.footer-area .widget_contact ul li:first-child{
+  margin-bottom: unset;
+}
+.footer-area .widget_contact ul li:nth-child(3){
+  margin-bottom: unset;
+}
+
+
 .footer-area .widget_contact ul li i {
   margin-right: 14px;
   color: var(--main-color);

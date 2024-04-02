@@ -4286,6 +4286,14 @@ ul {
   left: 0;
   top: 6px;
 }
+
+.footer-area .widget_contact ul li:first-child{
+  margin-bottom: unset;
+}
+.footer-area .widget_contact ul li:nth-child(3){
+  margin-bottom: unset !important;
+}
+
 .footer-area .widget_contact ul li:last-child {
   margin-bottom: 0;
 }
