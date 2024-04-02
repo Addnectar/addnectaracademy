@@ -40,6 +40,9 @@ class Navbar extends Component {
             <nav className="navbar navbar-area-1 navbar-area navbar-expand-lg">
               <div className="container nav-container">
                 <div className="responsive-mobile-menu">
+                {/* <div className="nav-left-part nav-left-part-mobile">
+                  <Link className="btn btn-base" to="/enquiry">Get the App</Link>
+                </div>              */}
                   <button className="menu toggle-btn d-block d-lg-none" data-target="#edumint_main_menu" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="icon-left" />
                     <span className="icon-right" />
@@ -47,6 +50,9 @@ class Navbar extends Component {
                 </div>
                 <div className="logo">
                   <Link to="/"><img src={publicUrl+"assets/img/logo.png"} alt="img" /></Link>
+                </div>
+                <div className="nav-left-part nav-left-part-mobile">
+                  <Link className="btn btn-base" to="https://play.google.com/store/apps/details?id=co.lazarus.zifbo">Get the App</Link>
                 </div>
                 <div className="nav-right-part nav-right-part-mobile">
                 </div>
