@@ -1,7 +1,7 @@
 {
   "name": "addnectaracademy",
   "version": "0.1.0",
-  "homepage": "http://www.addnectaracademy.com/",
+  "homepage": "https://addnectar.github.io/addnectaracademy/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.4.0",
