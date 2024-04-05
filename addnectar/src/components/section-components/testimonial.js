@@ -19,7 +19,7 @@ class Testimonial extends Component {
 			            <p className="mb-4">Not only did they teach me graphic design but I got to work on projects that were part of customer real work.</p>
 			            <div className="media testimonial-author">
 			              <div className="media-left">
-			                <img src={publicUrl+"assets/img/author/Abhijeet.jpg"} alt="img" />
+			                <img src={publicUrl+"assets/img/author/abhijeet.jpg"} alt="img" />
 			                <i className="fa fa-quote-left" />
 			              </div>
 			              <div className="media-body align-self-center">
