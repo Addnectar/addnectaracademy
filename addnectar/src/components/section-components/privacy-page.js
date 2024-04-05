@@ -49,7 +49,7 @@ class Privacy extends Component {
                                 The computers/servers in which we store personally identifiable information are kept in a secure environment.
                             </p>
                             <p>
-                            If you feel that we are not abiding by this privacy policy, you should contact us immediately via telephone at +91 9137423179 or via email at info@addnectaracademy.com.
+                            If you feel that we are not abiding by this privacy policy, you should contact us immediately via telephone at +91 8108167706 or via email at info@addnectaracademy.com.
                             </p>
                     </div>
                     <div>

@@ -19,7 +19,7 @@ export default function Enquiry () {
       'message': form.current.elements.message.value,
       'g-recaptcha-response': key,
     };
-    emailjs.sendForm('service_wku9tjo', 'template_nb76kdr', form.current, '5u_ErxPJLrp-E8yXm')
+    emailjs.sendForm('service_to9yc5k', 'template_nb76kdr', form.current, '5u_ErxPJLrp-E8yXm')
       .then((response) => {
         console.log('SUCCESS!', response.status, response.text);
         if (response.status == 200) {
@@ -43,7 +43,7 @@ export default function Enquiry () {
             showCloseButton: false,
             html: `
               <div>
-                <p>Something went wrong. Please contact us on +919137423179</p>
+                <p>Something went wrong. Please contact us on +918108167706</p>
                 <a href='/'><button class="btn btn-base">OK</button><a>
               </div>`
           }); 
