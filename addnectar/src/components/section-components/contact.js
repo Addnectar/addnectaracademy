@@ -64,7 +64,7 @@ class Contact extends Component {
 			                <div className="media-left">
 			                  <img src={publicUrl+"assets/img/icon/18.png"} alt="img" />
 			                </div>
-			                <div className="media-body align-self-center">
+			                <div className="media-body">
 			                  <h5>Email</h5>
 							  <a href="mailto:info@addnectaracademy.com"><p>info@addnectaracademy.com</p></a>
 			                </div>
